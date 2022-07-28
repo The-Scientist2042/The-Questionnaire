@@ -1,0 +1,398 @@
+#light{
+    #earow{
+        #ecolone{
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+        #ecoltwo{
+            display: flex;
+            justify-content: flex-end;
+            button{
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                transition: transform 1s ease-in-out;
+                background: $ten;
+                color: $thirty;
+                border: none;
+                &::before{
+                    content: '\f185';
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                }
+                &:hover{
+                    transform: rotate(360deg);
+                }
+            }
+        }
+        #row22{
+            margin-top: 1rem;
+            #col221{
+                display: flex;
+                align-items: center;
+                justify-content:flex-start ;
+                // border: 2px solid red;
+                button{
+                    border: none;
+                    width: 100%;
+                    height: 2rem;
+                    border-radius: 5px;
+                    font-size: 1rem;
+                    background-color: $ten;
+                    color: $thirty;
+                    box-shadow: inset 20px 20px 60px #ece8e8,
+                    inset -20px -20px 60px #ffffff;
+                }
+            }
+        }
+        #trow{
+            margin-top: 1.5rem;
+            position: fixed;
+            top: 1.5rem;
+            #tcol{
+                display: flex;
+                justify-content: flex-end;
+            }
+            #tcolred{
+                display: flex;
+                justify-content: flex-end;
+                color: red;
+            }
+        }
+        #qrow{
+            .row{
+                .col-12{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    i{
+                        margin-right: 1rem;
+                        transform: translateY(-.2rem);
+                    }
+                    h1{
+                        font-size: 1.3rem;
+                        line-height: 2.3rem;
+                    }
+                }
+            }
+        }
+        #arow{
+            margin-left: 2rem;
+            margin-bottom: 2.3rem;
+            color: $thirty;
+            #a1{
+                #button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $ten;
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                }
+            }
+            #a2{
+                #button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $ten;
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                }
+            }
+            #a3{
+                #button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $ten;
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                }
+            }
+            #a4{
+                #button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $ten;
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgb(225, 224, 224);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                }
+            }
+        }
+        #footer{
+            margin-top: 2rem;
+            transform: translateX(.75rem);
+            #footer--col1{
+                margin-top: .5rem;
+                a{
+                    color: $thirty;
+                    i{
+                        font-size: 1.4rem;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            #footer--col2{
+                display: flex;
+                align-items: flex-end;
+                justify-content: end;
+                font-size: .7rem;
+                font-weight: 500;
+            }
+        }
+    }
+    #hide{
+        display: none;
+    }
+}
+#dark{
+    #earow{
+        #ecolone{
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+        #ecoltwo{
+            display: flex;
+            justify-content: flex-end;
+            button{
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                transition: transform 1s ease-in-out;
+                background: $sixty;
+                color: $thirty;
+                border: none;
+                &::before{
+                    content: '\f186';
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                }
+                &:hover{
+                    transform: rotate(360deg);
+                }
+            }
+        }
+        #row22{
+            margin-top: 1rem;
+            #col221{
+                display: flex;
+                align-items: center;
+                justify-content:flex-start ;
+                // border: 2px solid red;
+                button{
+                    border: none;
+                    width: 100%;
+                    height: 2rem;
+                    border-radius: 5px;
+                    font-size: 1rem;
+                    background-color: $sixty;
+                    color: $thirty;
+                    box-shadow: inset -20px -20px 57px #21262c,
+                    inset 20px 20px 57px #313840;
+                }
+            }
+        }
+        #trow{
+            margin-top: 1.5rem;
+            position: fixed;
+            top: 1.5rem;
+            #tcol{
+                display: flex;
+                justify-content: flex-end;
+            }
+            #tcolred{
+                display: flex;
+                justify-content: flex-end;
+                color: red;
+            }
+        }
+        #qrow{
+            .row{
+                .col-12{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    i{
+                        margin-right: 1rem;
+                        transform: translateY(-.2rem);
+                    }
+                    h1{
+                        font-size: 1.3rem;
+                        line-height: 2.3rem;
+                    }
+                }
+            }
+        }
+        #arow{
+            margin-left: 2rem;
+            margin-bottom: 2.3rem;
+            color: $thirty;
+            #a1{
+                button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgba(33, 38, 44);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $sixty
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                }
+            }
+            #a2{
+                button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgba(33, 38, 44);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $sixty
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                }
+            }
+            #a3{
+                button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgba(33, 38, 44);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $sixty
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                }
+            }
+            #a4{
+                button{
+                    width: 15rem;
+                    height: 2.5rem;
+                    border-radius: 10px;
+                    box-shadow: 0px 8px 15px rgba(33, 38, 44);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    color: $thirty;
+                    background: $sixty
+                }
+                #green{
+                    background: green;
+                    color: #21262c;
+                }
+            }
+        }
+        #footer{
+            margin-top: 2rem;
+            // border: 2px solid red;
+            // background: black;
+            transform: translateX(.75rem);
+            #footer--col1{
+                margin-top: .5rem;
+                a{
+                    color: $thirty;
+                    i{
+                        font-size: 1.4rem;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            #footer--col2{
+                display: flex;
+                align-items: flex-end;
+                justify-content: end;
+                font-size: .7rem;
+                font-weight: 500;
+            }
+        }
+    }
+    #hide{
+        display: none;
+    }
+}

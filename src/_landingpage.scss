@@ -1,0 +1,251 @@
+#light{
+    background: $ten;
+    color: $sixty;
+    transition: all .2s ease-in-out;
+    .lrow{
+        #lcolone{
+            display: flex;
+            justify-content: flex-start;
+            font-size: 1.5rem;
+        }
+        #lcoltwo{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            button{
+                width: 3rem;
+                height: 3rem;
+                background: $ten;
+                color: $thirty;
+                border: none;
+                border-radius: 50%;
+                transition: all .3s ease-in-out, transform 1s ease-in-out;
+                &::before{
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 600;
+                    content: "\f185";
+                    font-size: 1.2rem;
+                }
+                &:hover{
+                    transform: rotate(360deg);
+                }
+            }
+        }
+        #lcolthree{
+            background: url('https://i.pinimg.com/originals/4d/da/e0/4ddae0a48d39ecdb2ad510d4fccda9cd.jpg');
+            width: 100%;
+            height: 70vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #lrow2{
+            margin-top: 5rem;
+            transform: translateX(.75rem);
+            #lrow21{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            #lrow22{
+                display: flex;
+                align-items: center;
+                button{
+                    margin-left: 1rem;
+                    width: 10rem;
+                    border: none;
+                    background: $thirty;
+                    color: $ten;
+                    border-radius: 10px;
+                    transition: all .3s ease-in-out;
+                }
+            }
+        }
+        
+        #quote{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // border: 2px solid red;
+            margin-top: 5rem;
+            transform: translateX(.75rem);
+            aside{
+                // border: 2px solid blue;
+                width: 30rem;
+                height: fit-content;
+                background: $ten;
+                color: $sixty;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                #name{
+                    font-size: 1.8rem;
+                }
+                #aquote{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1rem;
+                }
+
+                #character{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        #footer{
+            margin-top: 2rem;
+            transform: translateX(.75rem);
+            #footer--col1{
+                margin-top: .5rem;
+                a{
+                    color: $sixty;
+                    i{
+                        font-size: 1.4rem;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            #footer--col2{
+                display: flex;
+                align-items: flex-end;
+                justify-content: end;
+                font-size: .7rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+#dark{
+    background: $sixty;
+    color: $ten;
+    transition: all .2s ease-in-out;
+    .lrow{
+        // border: 2px solid blue;
+        #lcolone{
+            display: flex;
+            justify-content: flex-start;
+            font-size: 1.5rem;
+        }
+        #lcoltwo{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            button{
+                width: 3rem;
+                height: 3rem;
+                background: $sixty;
+                color: $thirty;
+                border: none;
+                border-radius: 50%;
+                // box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                transition: all .3s ease-in-out, transform 1s ease-in-out;
+                &::before{
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 600;
+                    content: "\f186";
+                    font-size: 1.2rem;
+                }
+                &:hover{
+                    transform: rotate(360deg);
+                }
+            }
+        }
+        #lcolthree{
+            // border: 2px solid red;
+            background: url('https://images.alphacoders.com/106/thumb-1920-1066532.png');
+            width: 100%;
+            height: 70vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #lrow2{
+            transform: translateX(.75rem);
+            // border: 2px solid red;
+            margin-top: 5rem;
+            #lrow21{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            #lrow22{
+                display: flex;
+                align-items: center;
+                button{
+                    margin-left: 1rem;
+                    width: 10rem;
+                    border: none;
+                    background: $thirty;
+                    color: $ten;
+                    border-radius: 10px;
+                }
+            }
+        }
+        
+        #quote{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // border: 2px solid red;
+            margin-top: 5rem;
+            transform: translateX(.75rem);
+            aside{
+                // border: 2px solid blue;
+                width: 30rem;
+                height: fit-content;
+                background: $sixty;
+                color: $ten;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                #name{
+                    font-size: 1.8rem;
+                }
+                #aquote{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1rem;
+                    font-style: italic;
+                }
+
+                #character{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        #footer{
+            margin-top: 2rem;
+            // border: 2px solid red;
+            // background: black;
+            transform: translateX(.75rem);
+            #footer--col1{
+                margin-top: .5rem;
+                a{
+                    color: $thirty;
+                    i{
+                        font-size: 1.4rem;
+                        margin-right: 1rem;
+                    }
+                }
+            }
+            #footer--col2{
+                display: flex;
+                align-items: flex-end;
+                justify-content: end;
+                font-size: .7rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
